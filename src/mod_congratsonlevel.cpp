@@ -135,7 +135,7 @@ public:
     CongratsOnLevel() : PlayerScript("CongratsOnLevel") { }
 
     // Level Up Rewards
-    void OnLevelChanged(Player* player, uint8 oldLevel) override
+    void OnPlayerLevelChanged(Player* player, uint8 oldLevel) override
     {
         // If enabled...
         if (col.congratsEnable)
