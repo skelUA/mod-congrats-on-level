@@ -120,7 +120,7 @@ public:
 
     CongratsAnnounce() : PlayerScript("CongratsAnnounce") {}
 
-    void OnPlayerLogin(Player* player)
+    void OnLogin(Player* player)
     {
         // Announce Module
         if (col.congratsAnnounce)
